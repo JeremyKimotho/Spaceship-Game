@@ -7,6 +7,7 @@ An application that uses images and opengl to create a simple point and attack g
 The vertices of the objects are passed onto the vertex shader at the start of the execution of the program and then never again. The rest of the movement and rotation seen by the user is a result of transformations executed by the vertex shader using matrices. These matrices are already coded in the vertex shader and uniforms are used to edit the matrices.
 ## Setup/Installation Requirements
 * cmake -H. -Bbuild
+* cd build 
 * make
 * ./453-skeleton
 
